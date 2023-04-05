@@ -9,5 +9,7 @@ int main() {
     mktime(today); // normalize time
 
     printf("Today's date: %d-%02d-%02d\n", today->tm_year + 1900, today->tm_mon + 1, today->tm_mday);
+
     return 0;
 }
+
