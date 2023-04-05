@@ -1,3 +1,4 @@
+/*
 #include <stdio.h>
 
 int main() {
@@ -42,7 +43,7 @@ int main() {
 
     return 0;
 }
-
+*/
 
 
 // This program first reads the size of the matrices and the elements
@@ -61,3 +62,43 @@ int main() {
 // Finally, the program displays the sum of the two matrices by 
 // iterating over the rows and columns of the sum matrix and printing 
 // each element.
+
+
+
+
+
+#include <stdio.h>
+
+int main() {
+    int a[2][2], b[2][2], add[2][2];
+    int i , j ;
+
+    // Read the elements of the first matrix
+    printf("Enter the elements of the first matrix:\n");
+    for (i = 0; i < 2; i++) {
+        for (j = 0; j < 2; j++) {
+            scanf("%d", &a[i][j]);
+        }
+    }
+
+    // Read the elements of the second matrix
+    printf("Enter the elements of the second matrix:\n");
+    for (i = 0; i < 2; i++) {
+        for (j = 0; j < 2; j++) {
+            scanf("%d", &b[i][j]);
+        }
+    }
+
+    printf("Addition of 2 matrices:\n");
+    for (i = 0; i < 2; i++) {
+        for (j = 0; j < 2; j++) {
+            add[i][j] = a[i][j] + b[i][j];
+            printf("%d ", add[i][j]);
+        }
+        printf("\n");  // move to a new line after each row is printed
+    }
+
+    return 0;
+}
+
+
