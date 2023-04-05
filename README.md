@@ -1,6 +1,6 @@
-# Another-C-Programs\n
-> program1.c ---> C program to calculate insurance
-> program2.c ---> write a program to take todays date and print tomorrows date
+# Another-C-Programs\n\n
+> program1.c ---> C program to calculate insurance\n
+> program2.c ---> write a program to take todays date and print tomorrows date\n
 > program3.c ---> write a program to take todays date and print yesterdays date
 > program4.c ---> write a program to print digital cloak
 > program5.c ---> write a program to find the factorial of number
